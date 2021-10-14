@@ -343,8 +343,8 @@ you can use the generic selector below, but it's slower:
 }
 .google-maps {
     position: relative;
-    padding-bottom: 75%; 
-    height: 0;
+    padding-bottom: 50%; 
+    height: 25%;
     overflow: hidden;
 }
 .google-maps iframe {
@@ -352,5 +352,5 @@ you can use the generic selector below, but it's slower:
     top: 0;
     left: 0;
     width: 100% !important;
-    height: 60% !important;
+    height: 75% !important;
 }
